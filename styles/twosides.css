@@ -8,34 +8,43 @@ body {
 
 #cougar {
   background: #B26219;
-  clear: both;
   padding-bottom: 20px;
   padding-top: 20px;
-
+  width: 100%;
+  overflow: auto;
 }
 
 #lion {
   background: #FFBD82;
-  padding-top: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
+  clear: both;
+  width: 100%;
+  overflow: auto;
 }
 
 #tiger {
   background: #FFD5AE;
   padding-bottom: 20px;
   padding-top: 20px;
+  clear: both;
+  width: 100%;
+  overflow: auto;
 }
 
 article {
-  background: #fff;
-  width: 600px;
+  font-size: medium;
+  float: right;
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 47%;
   color: #000;
-  margin: 50px auto;
-  padding: 20px 40px;
+  padding: 10px;
   box-sizing: border-box;
 }
 header {
   margin-left: 30px;
+  clear; both;
 }
 
 h1 {
@@ -44,16 +53,26 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  color: #000;
 }
 
 #cougar > p, #lion > p, #tiger > p {
   text-align: center;
+
 }
 
 img {
   display: block;
   margin: auto;
+  width: 475px;
+}
+
+div {
+  float: left;
+  width: 47%;
+  box-sizing: border-box;
+  margin-left: 2%;
+  padding: 10px;
 }
 
 footer {
@@ -65,6 +84,7 @@ footer {
   margin-bottom: 10px;
   height: 100px;
   box-sizing: border-box;
+  clear: both;
 }
 
 
@@ -94,6 +114,7 @@ nav {
   float: right;
   margin-top: 20px;
   width: 30%;
+  margin-right: 30px;
 
 
 }
